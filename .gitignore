@@ -1,0 +1,60 @@
+### OS
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+### VS Code
+.vscode/
+
+### Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### Gradle
+.gradle/
+build/
+
+### Java
+*.class
+hs_err_pid*
+replay_pid*
+
+### Logs
+*.log
+logs/
+log/
+
+### Spring Boot
+*.pid
+
+### Spock / Groovy
+*.groovy~
+
+### Test reports / coverage
+**/surefire-reports/
+**/failsafe-reports/
+**/test-results/
+**/jacoco*.exec
+**/jacoco/
+**/coverage/
+**/*.hprof
+
+### Temporary / swap
+*~
+*.swp
+*.swo
+
