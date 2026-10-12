@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false #so db connections are held only during db calls
+  liquibase:
+    changelog: classpath:/db/changelog/db.changelog-master.xml
+  data:
+    web:
+      pageable:
+        default-page-size: 10
+        max-page-size: 100
